@@ -1,0 +1,49 @@
+{
+    "products": [
+        {
+            "title": "Balance Vase",
+            "price": "$79.99",
+            "src": "./img/product-1.png"
+        },
+        {
+            "title": "Bulb Vase",
+            "price": "$39.99",
+            "src": "./img/product-2.png"
+        },
+        {
+            "title": "Drop Vase",
+            "price": "$49.99",
+            "src": "./img/product-3.png"
+        },
+        {
+            "title": "Mango Vase",
+            "price": "$79.99",
+            "src": "./img/product-4.png"
+        },
+        {
+            "title": "Wave Vase",
+            "price": "$69.99",
+            "src": "./img/product-5.png"
+        },
+        {
+            "title": "Sun Vase",
+            "price": "$69.99",
+            "src": "./img/product-6.png"
+        },
+        {
+            "title": "Bubble Flowerpot",
+            "price": "$49.99",
+            "src": "./img/product-7.png"
+        },
+        {
+            "title": "Binocular Vase",
+            "price": "$49.99",
+            "src": "./img/product-8.png"
+        },
+        {
+            "title": "Candy Flowerpot",
+            "price": "$59.99",
+            "src": "./img/product-9.png"
+        }
+    ]
+}
