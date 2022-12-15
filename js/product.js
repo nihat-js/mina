@@ -1,6 +1,15 @@
 let params = new URLSearchParams(window.location.search)
-let product_id = params.get('product_id')
+let product_id = +params.get('product_id')
 let Products
+let Cart
+
+
+if (localStorage.getItem('Cart')) {
+   Cart = JSON.parse(localStorage.getItem('Cart'))
+} else {
+   Cart = []
+}
+
 
 fetch("api/products.json")
    .then(res => res.json())
@@ -11,15 +20,19 @@ fetch("api/products.json")
 function main() {
    console.log(Products)
    let Product = Products.find(x => x.id == product_id)
+   let foo = Cart.find(x => x.product_id == product_id)
+
    document.querySelector('.product-full .content').innerHTML = `
-      <div class="img-wrap">
+            <div class="img-wrap">
 					<img src="${Product.src}" alt="">
 				</div>
 				<div class="info">
-					<h2 class="title"> ${Product.title}  </h2>
-					<a href="index.html"> Back to catalog </a>
-					<p class="count"> </p>
-					<button> Add More </button>
+					<h1 class="title"> ${Product.title}  </h1>
+					<a class='back' href="search.html"> Back to catalog </a>
+               <p class='price'   > $${Product.price}  </p>    
+					<p class="count"> ${foo.count > 0 ? foo.count + ' items in the bag' : ''}  </p>
+					<button class='add' onclick='add_to_cart()'> Add More </button>
+               <a href='checkout'> ${foo.count > 0} Checkout   </a>
 					<div class="details-group">
 						<p class="details-headline"> Product Details</p>
 						<p class="details-text">  ${Product.details} </p>
@@ -37,4 +50,23 @@ function main() {
 						<p class="measurements-text"> ${Product.measurements} </p>
 					</div>
    `
+}
+
+
+function add_to_cart() {
+   let product = Cart.find(x => x.id == product_id)
+   if (product) {
+      product.count++
+   } else {
+      Cart.push({
+         product_id: product_id,
+         count: 1,
+      })
+   }
+   updateLocalStorage()
+}
+
+
+function updateLocalStorage() {
+   localStorage.setItem('Cart', JSON.stringify(Cart))
 }

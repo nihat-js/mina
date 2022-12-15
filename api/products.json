@@ -5,7 +5,7 @@
             "title": "Balance Vase",
             "price": 79.99,
             "src": "./img/product-1.png",
-            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. \n This piece is handmade in stoneware clay and one of a kind. ",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
             "material": "Stoneware clay; matte glaze.",
             "color": "brown",
             "measurements": "35x20 cm"

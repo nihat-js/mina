@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,7 +8,7 @@
 }
 
 html {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -946,5 +948,97 @@ footer {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 6rem;
+
+		.img-wrap {
+			img {
+				width: 100%;
+			}
+		}
+
+		.info {
+			color: #333;
+
+			.title {
+				font-size: 1.75rem;
+				line-height: 2rem;
+				margin-bottom: .5rem;
+			}
+
+			.back {
+				color: #999;
+				margin-bottom: 1.5rem;
+			}
+
+			.price {
+				font-size: 1.75rem;
+				line-height: 2rem;
+				margin: 2rem 0;
+			}
+
+			.count {
+				font-weight: bold;
+				margin-bottom: .45rem;
+			}
+
+			.add {
+				padding: 1rem 2.5rem;
+				color: var(--color-primary);
+				background: none;
+				border: 2px solid var(--color-primary);
+				cursor: pointer;
+
+				&:hover {
+					background: var(--color-primary);
+					color: #fff;
+				}
+			}
+
+			.details-group {
+				margin: 3rem 0;
+
+				.details-headline {
+					font-weight: bold;
+					margin-bottom: .4rem;
+				}
+
+				.details-text {
+					line-height: 1.2rem;
+				}
+			}
+
+			.material-group {
+				display: flex;
+
+				.material-headline {
+					font-weight: bold;
+					margin-right: .4rem;
+				}
+
+				.material-text {}
+			}
+
+			.color-group {
+				display: flex;
+
+				.color-headline {
+					font-weight: bold;
+					margin-right: .4rem;
+				}
+
+				.color-text {}
+			}
+
+			.measurements-group {
+				display: flex;
+
+				.measurements-headline {
+					font-weight: bold;
+					margin-right: .4rem;
+				}
+
+				.measurements-text {}
+			}
+
+		}
 	}
 }
