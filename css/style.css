@@ -650,4 +650,39 @@ footer .footer-content .box2 a {
     grid-template-columns: 100%;
     padding: 0 1rem;
   }
+}
+.cart-main .cart-main-content {
+  padding: 5rem 0;
+  max-width: 1200px;
+  margin: auto;
+}
+.cart-main .cart-main-content .heading {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+.cart-main .cart-main-content .box2 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.cart-main .cart-main-content .box2 .box2-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-main .cart-main-content .box2 .box2-content .heading {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.cart-main .cart-main-content .box2 .box2-content button {
+  padding: 1rem 1.5rem;
+  color: var(--color-primary);
+  background-color: #fff;
+  font-size: 1.05rem;
+  border: none;
+  cursor: pointer;
+  border: 2px solid var(--color-primary);
 }/*# sourceMappingURL=style.css.map */
