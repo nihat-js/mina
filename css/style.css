@@ -499,11 +499,6 @@ footer .footer-content .box2 a {
   font-size: 1.25rem;
   line-height: 2rem;
 }
-.about-alex .about-alex-content .box1 .info button {
-  color: var(--color-primary);
-  border: none;
-  background-color: #fff;
-}
 
 .about-sustain {
   background-color: #fd925c;
@@ -512,17 +507,32 @@ footer .footer-content .box2 a {
   max-width: 1200px;
   margin: auto;
 }
-.about-sustain .about-sustain-content .img-wrap img {
+.about-sustain .about-sustain-content .box1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 6rem;
+}
+.about-sustain .about-sustain-content .box1 .img-wrap img {
   width: 100%;
 }
-.about-sustain .about-sustain-content .info {
+.about-sustain .about-sustain-content .box1 .info {
   color: #fff;
 }
-.about-sustain .about-sustain-content .info .heading {
+.about-sustain .about-sustain-content .box1 .info .heading {
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }
-.about-sustain .about-sustain-content .info .subheading {
+.about-sustain .about-sustain-content .box1 .info .subheading {
   font-size: 1.2rem;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.about-sustain .about-sustain-content .box1 .info button {
+  color: var(--color-primary);
+  border: none;
+  background-color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
