@@ -369,6 +369,7 @@ footer .footer-content .box2 a {
   min-height: 600px;
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .shop .shop-content {
   height: 600px;
@@ -844,11 +845,12 @@ footer .footer-content .box2 a {
   margin-bottom: 0.5rem;
 }
 .checkout-main .content .box1 .shopping .items .item .info .quantity-wrap button {
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 0.9rem;
   color: #fff;
   border: none;
   background: #fd925c;
   cursor: pointer;
+  margin: 0.4rem;
 }
 .checkout-main .content .box1 .shopping .items .item .price-wrap .close {
   cursor: pointer;
@@ -921,4 +923,14 @@ footer .footer-content .box2 a {
 }
 .checkout-main .content .box1 .checkout .payment {
   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout-main .content .box1 {
+    grid-template-columns: 100%;
+    padding: 0 1rem;
+  }
+  .checkout-main .content .box1 .checkout form .button-group .encrypted {
+    display: none;
+  }
 }

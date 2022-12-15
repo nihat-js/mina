@@ -480,6 +480,7 @@ footer {
 	min-height: 600px;
 	background-position: center center;
 	background-size: cover;
+	background-repeat: no-repeat;
 
 	.shop-content {
 		height: 600px;
@@ -1070,6 +1071,9 @@ footer {
 }
 
 
+// Checkout Page Started
+
+
 .checkout-main {
 	.content {
 		padding: 4rem 0;
@@ -1117,12 +1121,14 @@ footer {
 
 							.quantity-wrap {
 								button {
-									padding: .5rem 1rem;
+									padding: .4rem .9rem;
 									color: #fff;
 									border: none;
 									background: #fd925c;
 									cursor: pointer;
+									margin: .4rem;
 								}
+
 							}
 						}
 
@@ -1216,3 +1222,28 @@ footer {
 		}
 	}
 }
+
+
+@media screen and (max-width:768px) {
+	.checkout-main {
+		.content {
+			.box1 {
+				grid-template-columns: 100%;
+				padding: 0 1rem;
+
+				.checkout {
+					form {
+						.button-group {
+							.encrypted {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// CHECKOUT PAGE ENDED
