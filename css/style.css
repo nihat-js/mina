@@ -545,13 +545,13 @@ footer .footer-content .box2 a {
   align-items: center;
 }
 .contact-hero .contact-hero-content .heading {
-  font-size: 6rem;
+  font-size: 4rem;
   letter-spacing: 1px;
   color: #fff;
 }
 
 .contact-form .contact-form-content {
-  padding: 4rem 0;
+  padding: 5rem 0;
   max-width: 1200px;
   margin: auto;
 }
@@ -567,12 +567,13 @@ footer .footer-content .box2 a {
   line-height: 2.5rem;
   margin-bottom: 1.25rem;
 }
-.contact-form .contact-form-content .box1 .info .subheading:nth-child(1) {
-  margin-bottom: 5rem;
-}
 .contact-form .contact-form-content .box1 .info .subheading {
   font-size: 1.4rem;
   line-height: 1.7rem;
+  margin-bottom: 5rem;
+}
+.contact-form .contact-form-content .box1 .info .subheading:nth-child(1) {
+  margin-bottom: 5rem !important;
 }
 .contact-form .contact-form-content .box1 .info .heading-2 {
   margin-top: 1.5rem;
@@ -615,4 +616,15 @@ footer .footer-content .box2 a {
 .contact-form .contact-form-content .box1 .form form .btn-wrap button:hover {
   background: var(--color-primary);
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-hero .heading {
+    max-width: 200px;
+    text-align: center;
+  }
+  .contact-form .contact-form-content .box1 {
+    grid-template-columns: 100%;
+    padding: 0 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
