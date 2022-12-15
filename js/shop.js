@@ -14,7 +14,7 @@ function loadProduct() {
     Products.forEach((p) => {
         box1El.innerHTML += `
         <div class='el'>
-            <a href='product.html?prodouct_id= ' >
+            <a href='product.html?product_id=${p.id} ' >
                 <div class='img-wrap'>
                 <img src='${p.src}'/> 
                 </div>

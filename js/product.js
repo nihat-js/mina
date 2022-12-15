@@ -34,7 +34,7 @@ function main() {
 					<button class='add' onclick='add_to_cart()'> Add More </button>
                </div>
                <div class='checkout-wrap'>
-                  <a class='checkout' href='checkout.html'>  ${foo?.count > 0 ? 'Checkout' : ''}     </a>
+                    ${foo?.count > 0 ? " <a class='checkout' href='checkout.html'> Checkout  </a>" : ''}      
                </div>
 					<div class="details-group">
 						<p class="details-headline"> Product Details</p>
@@ -67,7 +67,9 @@ function add_to_cart() {
       })
    }
    main()
+   update_nav()
    updateLocalStorage()
+
 }
 
 

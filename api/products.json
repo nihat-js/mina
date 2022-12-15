@@ -14,49 +14,81 @@
             "id": 1,
             "title": "Bulb Vase",
             "price": 39.99,
-            "src": "./img/product-2.png"
+            "src": "./img/product-2.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         },
         {
             "id": 2,
             "title": "Drop Vase",
             "price": 49.99,
-            "src": "./img/product-3.png"
+            "src": "./img/product-3.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         },
         {
             "id": 3,
             "title": "Mango Vase",
             "price": 79.99,
-            "src": "./img/product-4.png"
+            "src": "./img/product-4.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         },
         {
             "id": 4,
             "title": "Wave Vase",
             "price": 69.99,
-            "src": "./img/product-5.png"
+            "src": "./img/product-5.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         },
         {
             "id": 5,
             "title": "Sun Vase",
             "price": 69.99,
-            "src": "./img/product-6.png"
+            "src": "./img/product-6.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         },
         {
             "id": 6,
             "title": "Bubble Flowerpot",
             "price": 49.99,
-            "src": "./img/product-7.png"
+            "src": "./img/product-7.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         },
         {
             "id": 7,
             "title": "Binocular Vase",
             "price": 49.99,
-            "src": "./img/product-8.png"
+            "src": "./img/product-8.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         },
         {
             "id": 8,
             "title": "Candy Flowerpot",
             "price": 59.99,
-            "src": "./img/product-9.png"
+            "src": "./img/product-9.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. <br><br> This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         }
     ]
 }

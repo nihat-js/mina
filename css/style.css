@@ -807,3 +807,57 @@ footer .footer-content .box2 a {
   font-weight: bold;
   margin-right: 0.4rem;
 }
+.checkout-main .content {
+  padding: 4rem 0;
+}
+.checkout-main .content .box1 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 3rem;
+}
+.checkout-main .content .box1 .shopping {
+  color: #191919;
+}
+.checkout-main .content .box1 .shopping .heading {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.checkout-main .content .box1 .shopping .subheading {
+  margin-bottom: 1rem;
+}
+.checkout-main .content .box1 .shopping .subheading a {
+  color: #191919;
+}
+.checkout-main .content .box1 .shopping .items .item {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+}
+.checkout-main .content .box1 .shopping .items .item .img-wrap {
+  margin-right: 1.5rem;
+}
+.checkout-main .content .box1 .shopping .items .item .img-wrap img {
+  width: 90px;
+}
+.checkout-main .content .box1 .shopping .items .item .info .title-wrap {
+  margin-bottom: 0.5rem;
+}
+.checkout-main .content .box1 .shopping .items .item .info .quantity-wrap button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  background: #fd925c;
+  cursor: pointer;
+}
+.checkout-main .content .box1 .shopping .items .item .price-wrap .close {
+  cursor: pointer;
+}
+.checkout-main .content .box1 .shopping .total-wrap {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-main .content .box1 .shopping .more {
+  margin-top: 1rem;
+}
