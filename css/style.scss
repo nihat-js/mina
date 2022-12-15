@@ -36,6 +36,9 @@ nav{
         }
         .brand {
             text-transform: uppercase;
+            a {
+                color : #000;
+            }
         }
         .links {
             display: flex;
@@ -388,7 +391,7 @@ footer{
 
 }
 
-//shop 
+//shop  CSS
 
 .shop {
     background-image: url('../img/shop-cover.avif');
@@ -501,6 +504,105 @@ footer{
             .box1 {
                 grid-template-columns: 100%;
                 padding: 0 1.5rem ;
+            }
+        }
+    }
+}
+
+ // shop.html ended
+
+ //  ABOUT.html started
+
+ .about-hero {
+    background-image: url('../img/about-cover.avif');
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .about-hero-content{
+        .heading{
+            color : #fff;
+            font-size: 5rem;
+            font-weight: 600;
+            letter-spacing: 1.25px;
+        }
+    }
+ }
+
+
+ .about-quote{
+    .about-quote-content{
+        padding : 5rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .heading {
+            max-width: 450px;
+            color: #4d2c57;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+ }
+
+
+ .about-alex {
+    background-color: #f6f7f6;
+    .about-alex-content {
+        max-width: 1200px;
+        margin: auto;
+        .box1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2rem;
+            align-items: center;
+            color : var(--color-primary);
+            .img-wrap{
+                img {
+                    width: 100%;
+                }
+            }
+            .info {
+                padding : 0 1.5rem;
+                .heading {
+                    font-size: 3rem;
+                    margin-bottom: 2.5rem;
+                }
+                .subheading {
+                    font-size: 1.25rem;
+                    line-height: 2rem;
+                }
+                button {
+                    color : var(--color-primary);
+                    border : none;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+ }
+
+.about-sustain {
+    background-color: #fd925c;
+    .about-sustain-content{
+        max-width: 1200px;
+        margin: auto;
+        .img-wrap{
+            img {
+                width: 100%;
+            }
+        }
+        .info {
+            color : #fff;
+            .heading {
+                font-size: 3rem;
+                margin-bottom: 1.5rem;
+            }
+            .subheading {
+                font-size: 1.2rem;
+                line-height: 1.3rem;
             }
         }
     }

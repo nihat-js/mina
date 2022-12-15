@@ -27,6 +27,9 @@ nav .nav-content .menu {
 nav .nav-content .brand {
   text-transform: uppercase;
 }
+nav .nav-content .brand a {
+  color: #000;
+}
 nav .nav-content .links {
   display: flex;
 }
@@ -438,4 +441,88 @@ footer .footer-content .box2 a {
     grid-template-columns: 100%;
     padding: 0 1.5rem;
   }
+}
+.about-hero {
+  background-image: url("../img/about-cover.avif");
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-hero .about-hero-content .heading {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+}
+
+.about-quote .about-quote-content {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-quote .about-quote-content .heading {
+  max-width: 450px;
+  color: #4d2c57;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-alex {
+  background-color: #f6f7f6;
+}
+.about-alex .about-alex-content {
+  max-width: 1200px;
+  margin: auto;
+}
+.about-alex .about-alex-content .box1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+  color: var(--color-primary);
+}
+.about-alex .about-alex-content .box1 .img-wrap img {
+  width: 100%;
+}
+.about-alex .about-alex-content .box1 .info {
+  padding: 0 1.5rem;
+}
+.about-alex .about-alex-content .box1 .info .heading {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+.about-alex .about-alex-content .box1 .info .subheading {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+.about-alex .about-alex-content .box1 .info button {
+  color: var(--color-primary);
+  border: none;
+  background-color: #fff;
+}
+
+.about-sustain {
+  background-color: #fd925c;
+}
+.about-sustain .about-sustain-content {
+  max-width: 1200px;
+  margin: auto;
+}
+.about-sustain .about-sustain-content .img-wrap img {
+  width: 100%;
+}
+.about-sustain .about-sustain-content .info {
+  color: #fff;
+}
+.about-sustain .about-sustain-content .info .heading {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.about-sustain .about-sustain-content .info .subheading {
+  font-size: 1.2rem;
+  line-height: 1.3rem;
 }/*# sourceMappingURL=style.css.map */
