@@ -405,13 +405,16 @@ footer .footer-content .box2 a {
 .product .product-content .box1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
+  grid-gap: 1.5rem 2rem;
   margin-bottom: 15rem;
 }
 .product .product-content .box1 .el {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.product .product-content .box1 .el a {
+  color: #000;
 }
 .product .product-content .box1 .el .img-wrap {
   width: 100%;
@@ -685,4 +688,16 @@ footer .footer-content .box2 a {
   border: none;
   cursor: pointer;
   border: 2px solid var(--color-primary);
-}/*# sourceMappingURL=style.css.map */
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-full .content {
+  padding: 2rem 0 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6rem;
+}

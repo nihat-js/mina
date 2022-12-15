@@ -1,48 +1,61 @@
 {
     "products": [
         {
+            "id": 0,
             "title": "Balance Vase",
-            "price": "$79.99",
-            "src": "./img/product-1.png"
+            "price": 79.99,
+            "src": "./img/product-1.png",
+            "details": "Beautiful hand-made vase with the most gorgeous thick brown matte glaze. \n This piece is handmade in stoneware clay and one of a kind. ",
+            "material": "Stoneware clay; matte glaze.",
+            "color": "brown",
+            "measurements": "35x20 cm"
         },
         {
+            "id": 1,
             "title": "Bulb Vase",
-            "price": "$39.99",
+            "price": 39.99,
             "src": "./img/product-2.png"
         },
         {
+            "id": 2,
             "title": "Drop Vase",
-            "price": "$49.99",
+            "price": 49.99,
             "src": "./img/product-3.png"
         },
         {
+            "id": 3,
             "title": "Mango Vase",
-            "price": "$79.99",
+            "price": 79.99,
             "src": "./img/product-4.png"
         },
         {
+            "id": 4,
             "title": "Wave Vase",
-            "price": "$69.99",
+            "price": 69.99,
             "src": "./img/product-5.png"
         },
         {
+            "id": 5,
             "title": "Sun Vase",
-            "price": "$69.99",
+            "price": 69.99,
             "src": "./img/product-6.png"
         },
         {
+            "id": 6,
             "title": "Bubble Flowerpot",
-            "price": "$49.99",
+            "price": 49.99,
             "src": "./img/product-7.png"
         },
         {
+            "id": 7,
             "title": "Binocular Vase",
-            "price": "$49.99",
+            "price": 49.99,
             "src": "./img/product-8.png"
         },
         {
+            "id": 8,
             "title": "Candy Flowerpot",
-            "price": "$59.99",
+            "price": 59.99,
             "src": "./img/product-9.png"
         }
     ]

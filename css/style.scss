@@ -524,13 +524,17 @@ footer {
 		.box1 {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
-			grid-gap: 1.5rem;
+			grid-gap: 1.5rem 2rem;
 			margin-bottom: 15rem;
 
 			.el {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+
+				a {
+					color: #000;
+				}
 
 				.img-wrap {
 					width: 100%;
@@ -912,6 +916,7 @@ footer {
 				justify-content: center;
 				flex-direction: column;
 				align-items: center;
+
 				.heading {
 					font-weight: bold;
 					margin-bottom: 1rem;
@@ -924,5 +929,22 @@ footer {
 				}
 			}
 		}
+	}
+}
+
+
+// product page started
+
+.content {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.product-full {
+	.content {
+		padding: 2rem 0 4rem 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 6rem;
 	}
 }
