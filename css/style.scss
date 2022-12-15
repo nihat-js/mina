@@ -1145,6 +1145,74 @@ footer {
 				}
 			}
 
+			.checkout {
+				.heading {
+					font-size: 2rem;
+					line-height: 2.25rem;
+					margin-bottom: .5rem;
+				}
+
+				.subheading {
+					margin-bottom: 1rem;
+				}
+
+				form {
+					margin-bottom: 1.5rem;
+
+					.input-group {
+						margin-bottom: 1rem;
+
+						input {
+							width: 100%;
+							background-color: #fbfbfb;
+							font-size: 1.05rem;
+							padding: .75rem 1.25rem;
+							border: none;
+							outline: none;
+						}
+					}
+
+					.checkbox-group {
+						font-size: 1.2rem;
+						margin-bottom: 1rem;
+					}
+
+					.button-group {
+						display: grid;
+						grid-template-columns: auto auto;
+						justify-content: space-between;
+
+						button {
+							@include btn-2();
+						}
+
+						.encrypted {
+							display: flex;
+							align-items: center;
+
+							svg {
+								margin-right: 1rem;
+							}
+						}
+					}
+				}
+
+				.next {
+					.text {
+						font-weight: 600;
+						font-size: 2rem;
+						line-height: 2.25rem;
+						padding-bottom: 1rem;
+						border-bottom: 1px solid #666;
+					}
+
+				}
+
+				.payment {
+					margin-bottom: 1.5rem;
+				}
+			}
+
 		}
 	}
 }

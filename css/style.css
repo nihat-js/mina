@@ -861,3 +861,64 @@ footer .footer-content .box2 a {
 .checkout-main .content .box1 .shopping .more {
   margin-top: 1rem;
 }
+.checkout-main .content .box1 .checkout .heading {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+.checkout-main .content .box1 .checkout .subheading {
+  margin-bottom: 1rem;
+}
+.checkout-main .content .box1 .checkout form {
+  margin-bottom: 1.5rem;
+}
+.checkout-main .content .box1 .checkout form .input-group {
+  margin-bottom: 1rem;
+}
+.checkout-main .content .box1 .checkout form .input-group input {
+  width: 100%;
+  background-color: #fbfbfb;
+  font-size: 1.05rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  outline: none;
+}
+.checkout-main .content .box1 .checkout form .checkbox-group {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.checkout-main .content .box1 .checkout form .button-group {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.checkout-main .content .box1 .checkout form .button-group button {
+  padding: 1rem 1.75rem;
+  color: #fff;
+  background-color: var(--color-primary);
+  font-size: 1.05rem;
+  border: 2px solid var(--color-primary);
+  cursor: pointer;
+  transition: 1s all;
+}
+.checkout-main .content .box1 .checkout form .button-group button:hover {
+  box-shadow: inset 300px 0 0 #14816b;
+  border: none;
+}
+.checkout-main .content .box1 .checkout form .button-group .encrypted {
+  display: flex;
+  align-items: center;
+}
+.checkout-main .content .box1 .checkout form .button-group .encrypted svg {
+  margin-right: 1rem;
+}
+.checkout-main .content .box1 .checkout .next .text {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #666;
+}
+.checkout-main .content .box1 .checkout .payment {
+  margin-bottom: 1.5rem;
+}
