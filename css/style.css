@@ -332,6 +332,15 @@ footer .footer-content .box2 a {
   footer .footer-content .box1 .brand {
     margin-bottom: 1.5rem;
   }
+  footer .footer-content .box1 .links {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-content .box1 .links a {
+    text-decoration: underline;
+    margin-bottom: 2rem;
+  }
 }
 .shop {
   background-image: url("../img/shop-cover.avif");
@@ -419,4 +428,14 @@ footer .footer-content .box2 a {
 .product .product-content .box1 .el .price {
   font-size: 2rem;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .filter .filter-content .box1 .box2 {
+    margin: 0 1.5rem;
+  }
+  .product .product-content .box1 {
+    grid-template-columns: 100%;
+    padding: 0 1.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -373,6 +373,15 @@ footer{
                 .brand {
                     margin-bottom: 1.5rem;
                 }
+                .links {
+                    align-self: flex-end;
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        text-decoration: underline;
+                        margin-bottom: 2rem;
+                    }
+                }
             }
         }
     }
@@ -474,5 +483,25 @@ footer{
             }
         }
 
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .filter{
+        .filter-content{
+            .box1
+            .box2 {
+                margin: 0 1.5rem;
+            }
+        }
+    }
+    .product {
+        .product-content {
+            .box1 {
+                grid-template-columns: 100%;
+                padding: 0 1.5rem ;
+            }
+        }
     }
 }
