@@ -444,6 +444,7 @@ footer .footer-content .box2 a {
 }
 .about-hero {
   background-image: url("../img/about-cover.avif");
+  background-position: center center;
   min-height: 400px;
   display: flex;
   justify-content: center;
@@ -454,6 +455,7 @@ footer .footer-content .box2 a {
   font-size: 5rem;
   font-weight: 600;
   letter-spacing: 1.25px;
+  text-align: center;
 }
 
 .about-quote .about-quote-content {
@@ -537,6 +539,25 @@ footer .footer-content .box2 a {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .about-hero .about-hero-content .heading {
+    font-size: 3rem;
+  }
+  .about-alex .about-alex-content .box1 {
+    grid-template-columns: 100%;
+  }
+  .about-sustain .about-sustain-content .box1 {
+    grid-template-columns: 100%;
+  }
+  .about-sustain .about-sustain-content .box1 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-sustain .about-sustain-content .box1 .info .heading {
+    text-align: center;
+  }
+}
 .contact-hero {
   background-image: url(../img/contact-hero.avif);
   min-height: 400px;

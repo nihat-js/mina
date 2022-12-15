@@ -587,6 +587,7 @@ footer {
 
 .about-hero {
 	background-image: url('../img/about-cover.avif');
+	background-position: center center;
 	min-height: 400px;
 	display: flex;
 	justify-content: center;
@@ -598,6 +599,7 @@ footer {
 			font-size: 5rem;
 			font-weight: 600;
 			letter-spacing: 1.25px;
+			text-align: center;
 		}
 	}
 }
@@ -686,6 +688,7 @@ footer {
 				.heading {
 					font-size: 3rem;
 					margin-bottom: 1.5rem;
+
 				}
 
 				.subheading {
@@ -707,6 +710,50 @@ footer {
 
 	}
 }
+
+
+
+@media screen and (max-width:768px) {
+	.about-hero{
+		.about-hero-content{
+			.heading {
+				// max-width: 60% ;
+				font-size: 3rem;
+			}
+		}
+	}
+	.about-alex {
+		.about-alex-content {
+			.box1{
+				grid-template-columns: 100%;
+			}
+		}
+	}
+	.about-sustain {
+		.about-sustain-content {
+			.box1 {
+				grid-template-columns: 100%;
+				.img-wrap {
+
+				}
+				.info {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					.heading {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+// ABOUT.html ended
+
+//  contact started
 
 
 .contact-hero {
