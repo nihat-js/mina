@@ -378,7 +378,45 @@ footer .footer-content .box2 a {
 .filter .filter-content .box2 {
   align-self: flex-end;
   display: flex;
+  padding: 1rem 0;
 }
 .filter .filter-content .box2 .el {
   margin-left: 1rem;
+}
+
+.product .product-content {
+  max-width: 1200px;
+  margin: auto;
+}
+.product .product-content .box1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  margin-bottom: 15rem;
+}
+.product .product-content .box1 .el {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product .product-content .box1 .el .img-wrap {
+  width: 100%;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+}
+.product .product-content .box1 .el .img-wrap img {
+  width: 100%;
+}
+.product .product-content .box1 .el .img-wrap img:hover {
+  transform: scale(1.2);
+  transition: 0.4s all;
+}
+.product .product-content .box1 .el .title {
+  font-size: 1.25rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.product .product-content .box1 .el .price {
+  font-size: 2rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
