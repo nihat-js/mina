@@ -37,7 +37,10 @@ nav .nav-content .links .link {
   padding: 1rem 0;
   border-bottom: 2px solid transparent;
 }
-nav .nav-content .links .link:hover {
+nav .nav-content .links .link a {
+  color: #000;
+}
+nav .nav-content .links .link a:hover {
   border-bottom: 2px solid var(--color-primary);
 }
 nav .nav-content .links .cart {
@@ -261,6 +264,9 @@ nav .nav-content .links .cart svg {
   gap: 1.5rem;
   margin-bottom: 3rem;
 }
+.follow .follow-content .box1 .el img {
+  width: 100%;
+}
 .follow .follow-content .owner a {
   font-size: 2rem;
 }
@@ -293,6 +299,9 @@ footer .footer-content .box2 a {
 }
 
 @media screen and (max-width: 768px) {
+  nav .nav-content {
+    padding: 0 1rem;
+  }
   nav .nav-content .menu {
     display: block;
   }
@@ -323,4 +332,53 @@ footer .footer-content .box2 a {
   footer .footer-content .box1 .brand {
     margin-bottom: 1.5rem;
   }
+}
+.shop {
+  background-image: url("../img/shop-cover.avif");
+  min-height: 600px;
+  background-position: center center;
+  background-size: cover;
+}
+.shop .shop-content {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop .shop-content .heading {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.filter .filter-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 0 0 0;
+}
+.filter .filter-content .box1 {
+  display: flex;
+}
+.filter .filter-content .box1 .el {
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #757575;
+}
+.filter .filter-content .box1 .el p {
+  font-size: 1.1rem;
+}
+.filter .filter-content .box1 .el:hover {
+  cursor: pointer;
+  color: #115080;
+}
+.filter .filter-content .box2 {
+  align-self: flex-end;
+  display: flex;
+}
+.filter .filter-content .box2 .el {
+  margin-left: 1rem;
 }/*# sourceMappingURL=style.css.map */

@@ -45,8 +45,11 @@ nav{
                 cursor: pointer;
                 padding: 1rem 0 ;
                 border-bottom: 2px solid transparent;
-                &:hover{
-                    border-bottom: 2px solid var(--color-primary);
+                a{
+                    color : #000;
+                    &:hover{
+                        border-bottom: 2px solid var(--color-primary);
+                    }
                 }
                 
             }
@@ -270,6 +273,11 @@ nav{
             display: flex;
             gap: 1.5rem ;
             margin-bottom: 3rem;
+            .el {
+                img {
+                    width: 100%;
+                }
+            }
         }
         .owner {
             a{
@@ -316,9 +324,16 @@ footer{
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     nav {
         .nav-content {
+            padding: 0 1rem;
             .menu {
                 display: block;
             }
@@ -371,4 +386,65 @@ footer{
         }
     }
 
+}
+
+//shop 
+
+.shop {
+    background-image: url('../img/shop-cover.avif');
+    min-height: 600px;
+    background-position: center center;
+    background-size: cover;
+    .shop-content{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .heading {
+            font-size: 4rem;
+            color  : #fff;
+        }
+    }
+
+}
+
+
+.filter {
+    .filter-content {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2.5rem  0 0 0 ;
+        .box1 {
+            display: flex;
+            .el {
+                margin-right: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color : #757575;
+                p {
+                    font-size: 1.1rem;
+                }
+                &:hover{
+                    cursor: pointer;
+                    color : #115080;
+                }
+
+            }
+        }
+        .box2 {
+            align-self: flex-end;
+            display: flex;
+            .el{
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+.products {
+    
 }
