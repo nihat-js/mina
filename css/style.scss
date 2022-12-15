@@ -16,14 +16,35 @@ html {
 }
 
 @mixin btn-1 {
-	padding: 1rem 1.5rem;
+	padding: 1rem 1.75rem;
 	color: var(--color-primary);
 	background-color: #fff;
 	font-size: 1.05rem;
-	border: none;
+	border: 2px solid var(--color-primary);
 	cursor: pointer;
+
+	&:hover {
+		background-color: var(--color-primary);
+		color: #fff;
+	}
 }
 
+@mixin btn-2 {
+	padding: 1rem 1.75rem;
+	color: #fff;
+	background-color: var(--color-primary);
+	font-size: 1.05rem;
+	border: 2px solid var(--color-primary);
+	cursor: pointer;
+	transition: 1s all;
+
+	&:hover {
+		// background-color: #fff;
+		// color: var(--color-primary);
+		box-shadow: inset 300px 0 0 #14816b;
+		border: none;
+	}
+}
 
 nav {
 	.nav-content {
@@ -980,18 +1001,23 @@ footer {
 				margin-bottom: .45rem;
 			}
 
-			.add {
-				padding: 1rem 2.5rem;
-				color: var(--color-primary);
-				background: none;
-				border: 2px solid var(--color-primary);
-				cursor: pointer;
+			.add-wrap {
+				margin-bottom: .5rem;
 
-				&:hover {
-					background: var(--color-primary);
-					color: #fff;
+				.add {
+					display: inline-block;
+					@include btn-1();
+
 				}
 			}
+
+			.checkout-wrap {
+				.checkout {
+					display: inline-block;
+					@include btn-2();
+				}
+			}
+
 
 			.details-group {
 				margin: 3rem 0;

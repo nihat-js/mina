@@ -83,12 +83,16 @@ nav .nav-content .links .cart svg {
   text-align: center;
 }
 .hero .hero-content button {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.75rem;
   color: var(--color-primary);
   background-color: #fff;
   font-size: 1.05rem;
-  border: none;
+  border: 2px solid var(--color-primary);
   cursor: pointer;
+}
+.hero .hero-content button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .bestseller .bestseller-content {
@@ -131,13 +135,17 @@ nav .nav-content .links .cart svg {
   font-size: 1.25rem;
 }
 .bestseller .bestseller-content .button-wrap button {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.75rem;
   color: var(--color-primary);
   background-color: #fff;
   font-size: 1.05rem;
-  border: none;
+  border: 2px solid var(--color-primary);
   cursor: pointer;
   border: 2px solid black;
+}
+.bestseller .bestseller-content .button-wrap button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .fdecor {
@@ -165,13 +173,17 @@ nav .nav-content .links .cart svg {
   text-align: center;
 }
 .fdecor .fdecor-content button {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.75rem;
   color: var(--color-primary);
   background-color: #fff;
   font-size: 1.05rem;
-  border: none;
+  border: 2px solid var(--color-primary);
   cursor: pointer;
   padding: 1rem 2rem;
+}
+.fdecor .fdecor-content button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .decor .decor-content {
@@ -244,12 +256,16 @@ nav .nav-content .links .cart svg {
   margin-bottom: 2rem;
 }
 .newsletter .newsletter-content .box1 button {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.75rem;
   color: var(--color-primary);
   background-color: #fff;
   font-size: 1.05rem;
-  border: none;
+  border: 2px solid var(--color-primary);
   cursor: pointer;
+}
+.newsletter .newsletter-content .box1 button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .follow .follow-content {
@@ -682,13 +698,17 @@ footer .footer-content .box2 a {
   font-size: 1rem;
 }
 .cart-main .cart-main-content .box2 .box2-content button {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.75rem;
   color: var(--color-primary);
   background-color: #fff;
   font-size: 1.05rem;
-  border: none;
+  border: 2px solid var(--color-primary);
   cursor: pointer;
   border: 2px solid var(--color-primary);
+}
+.cart-main .cart-main-content .box2 .box2-content button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .content {
@@ -726,16 +746,35 @@ footer .footer-content .box2 a {
   font-weight: bold;
   margin-bottom: 0.45rem;
 }
-.product-full .content .info .add {
-  padding: 1rem 2.5rem;
+.product-full .content .info .add-wrap {
+  margin-bottom: 0.5rem;
+}
+.product-full .content .info .add-wrap .add {
+  display: inline-block;
+  padding: 1rem 1.75rem;
   color: var(--color-primary);
-  background: none;
+  background-color: #fff;
+  font-size: 1.05rem;
   border: 2px solid var(--color-primary);
   cursor: pointer;
 }
-.product-full .content .info .add:hover {
-  background: var(--color-primary);
+.product-full .content .info .add-wrap .add:hover {
+  background-color: var(--color-primary);
   color: #fff;
+}
+.product-full .content .info .checkout-wrap .checkout {
+  display: inline-block;
+  padding: 1rem 1.75rem;
+  color: #fff;
+  background-color: var(--color-primary);
+  font-size: 1.05rem;
+  border: 2px solid var(--color-primary);
+  cursor: pointer;
+  transition: 1s all;
+}
+.product-full .content .info .checkout-wrap .checkout:hover {
+  box-shadow: inset 300px 0 0 #14816b;
+  border: none;
 }
 .product-full .content .info .details-group {
   margin: 3rem 0;
