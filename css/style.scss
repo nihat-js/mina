@@ -56,7 +56,8 @@ nav {
 
 				a {
 					color: #000;
-
+					display: flex;
+					align-items: center;
 					&:hover {
 						border-bottom: 2px solid var(--color-primary);
 					}
@@ -872,3 +873,8 @@ footer {
 		}
 	}
 }
+
+
+
+
+// 

@@ -42,6 +42,8 @@ nav .nav-content .links .link {
 }
 nav .nav-content .links .link a {
   color: #000;
+  display: flex;
+  align-items: center;
 }
 nav .nav-content .links .link a:hover {
   border-bottom: 2px solid var(--color-primary);
